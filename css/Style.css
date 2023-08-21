@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'poppins',sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navigation{
+    background-color: #9AC5F4;
+    display: flex;
+    list-style:none;
+    font-size: 20px;
+    justify-content: space-evenly;
+    padding: 10px 2px;
+    flex-wrap: wrap;
+}
+
+.navigation li a{
+    align-items: center;
+    color: #030300;
+    text-decoration: none;
+}
+
+.navigation li a:hover{
+    color: #FFEEBB;
+}
+
+.welcome{
+    background-image: url(./../images/cambridge-united-states-harvard-university-library\ \(1\).jpg );
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome h1{
+    color: 030300;
+    background-color: rgba(100, 150, 200, 50%);;
+}
+
+#About{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#Services{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    gap: 50px;
+    background-color: #99DBF5;
+}
+
+#Services ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Services ul{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+}
+
+#Specializations{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    gap: 60px;
+}
+
+#Specializations ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Specializations ul{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+}
+
+#Teachers{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    gap: 50px;
+    background-color: #99DBF5;
+}
+
+#Teachers ul li{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#Teachers ul{
+    display: flex;
+    list-style: none;
+    gap:80px;
+}
+
+#Teachers ul li img{
+    width: 100px;
+}
+
+#Plans{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+
+.parent{
+    display: flex;
+    gap:50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.child{
+    background-color: #A7ECEE;
+    width: 340px;
+    height: 465px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+.card img{
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.card img:hover{
+    transform:scale(1.5,1.5);
+}
+
+.box{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 80px;
+    background-color:#FFEEBB;
+    border-radius: 5px;
+    border: 2px solid #eed793;
+}
+
+.box p{
+    font-size:12px;
+    font-weight: bold;
+}
+
+
+#Contact{
+    width: 100%;
+    height: 670px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px ;
+    background-color: #99DBF5;
+}
+
+.parent-contact{
+    background-color: #99DBF5;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.child-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.put{
+    display: flex;
+    width: 500px;
+    height: 25px;
+}
+
+.Message{
+    width: 250px;
+    height: 40px;
+    background-color: #030300;
+    color: white;
+    margin: 14px 0;
+    border-radius: 7px;
+}
+
+.Message:hover{
+    background-color: #FFEEBB;
+    color: #030300;
+    font-weight:bold ;
+}
+
+#contact-info{
+    width: 100%;
+    height:400px;
+    background-color: #99DBF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    background-color: #9AC5F4;
+}
+
+.footer  ul{
+    display: flex;
+}
+
+.footer  ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.footer  ul li a{
+    text-decoration: none;
+    color: #030300;
+}
+
+.footer  ul li a:hover{
+    color: #FFEEBB;
+}
+
+@media screen and (max-width:992px) {
+    h1{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    #Services ul{
+        display: block;
+    }
+
+    #Specializations ul{
+        display: block;
+    }
+
+    #Teachers ul{
+        gap: 20px;
+    }
+
+    #Teachers ul li img{
+        width: 80px;
+    }
+
+    .put{
+        width: 250px;
+    }
+    
+    .Message{
+        width: 80px;
+        height: 40px;
+    }
+
+}
